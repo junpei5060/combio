@@ -9,7 +9,7 @@
                 <!-- <ul>
                     <li class="btn_top">無料相談を予約する</li>
                 </ul> -->
-                <nuxt-link to="/" class="btn_top">無料相談を予約する</nuxt-link>
+                <nuxt-link to="/news" class="btn_top">無料相談を予約する</nuxt-link>
             </nav>
         </header>
     </body>
