@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <p class="pro_text">
-        Combio(カンビオ)で<br>
+        師弟.comで<br>
         あなたに最適な理想の上司が見つかります
         </p>
 
@@ -36,5 +36,30 @@ top:100px;
 left: 50px;
 margin-bottom: 200px;
 }
+
+@media screen and (max-width: 959px) {
+  .container{
+max-width: 900px;
+}
+
+.pro_text{
+width: 333px;
+color: #273240;
+line-height: 47px;
+font-size: 27px;
+margin-left: 53px;
+}
+
+.pro_img{
+width: 900px;
+position: relative;
+top:67px;
+left: 33px;
+margin-bottom: 133px;
+}
+
+} /*ウィンドウ幅が最大959pxまでの場合に適用*/
+/* ここまで */
+
 
 </style>

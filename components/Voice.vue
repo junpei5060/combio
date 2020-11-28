@@ -5,7 +5,7 @@
             User’s voice
         </h5>
         <p class="voice_text">
-            すでに多くのビジネスマンがCambioで成長しています
+            すでに多くのビジネスマンが師弟.comで成長しています
         </p>
         <div class="pic-ctn">
         <img src="image/Voice1.png" class="pic">
@@ -95,4 +95,58 @@ img:nth-child(4) {
 img:nth-child(5) {
   animation-delay: 8s;
 }
+
+@media screen and (max-width: 959px) {
+.container{
+max-width: 959px;
+}
+
+.voice_container{
+}
+h5{
+width: 400px;
+font-size: 48px;
+}
+
+.voice_text{
+font-size: 21px;
+}
+.pic-ctn{
+width: 67px;
+margin-top: 53px;
+left: 180px;
+
+}
+@keyframes display {
+  0% {
+    transform: translateX(133px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(-133px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-133px);
+    opacity: 0;
+  }
+}
+.pic-ctn > img {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 67px);
+  opacity: 0;
+  animation: display 10s infinite;
+  width: 667px;
+}
+} /*ウィンドウ幅が最大959pxまでの場合に適用*/
+/* ここまで */
 </style>

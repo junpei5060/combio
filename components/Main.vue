@@ -9,7 +9,7 @@
         </div>
         <div class="text_btn">
             <span class="main_text">
-                Cambioは、ビジネスのプロであり、マネジメントのプロでもあるプロ上司が<br>
+                師弟.comは、ビジネスのプロであり、マネジメントのプロでもあるプロ上司が<br>
                 あなたをトップビジネスマンへと成長させます。<br>
                 今、所属する組織であなたが活躍する姿を想像してみてください<br>
                 そんな未来をお届けします。(要検討)
@@ -91,4 +91,46 @@ background-color: #DB0B40;
 top: 3px;
 box-shadow: none;
 }
+
+@media screen and (max-width: 959px) {
+    .container{
+    max-width: 959px;
+}
+.main_mess{
+width: 465px;
+margin-left: 53px;
+font-size: 48px;
+}
+
+.main_img{
+width: 400px;
+height: 300px;
+position: relative;
+top:100px;
+left: 10px;
+}
+
+.text_btn{
+display: flex;
+}
+
+.main_text{
+color: #273240;
+margin-left: 53px;
+font-size: 12px;
+}
+
+.btn_top{
+border-radius: 5px;
+font-size: 14px;
+height: 45px;
+letter-spacing: .5px;
+line-height: 45px;
+padding: 0 40px;
+margin-top: 10px;
+margin-left: 120px;
+}
+
+} /*ウィンドウ幅が最大959pxまでの場合に適用*/
+/* ここまで */
 </style>

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="Used_container">
         <h5>
-            Combioの利用までの流れ
+            師弟.comの利用までの流れ
         </h5>
         <img src="image/Used1.png" class="Used_img">
         </div>
@@ -33,4 +33,26 @@ position: relative;
 top:30px;
 margin-bottom: 150px;
 }
+
+/* ここがレスポンシブ（ipad）対応 */
+@media screen and (max-width: 959px) {
+    .container{
+max-width: 959px;
+}
+
+.Used_container{
+text-align: center;
+}
+h5{
+width: 666px;
+font-size: 48px;
+}
+.Used_img{
+width: 800px;
+position: relative;
+top:20px;
+margin-bottom: 100px;
+}
+} /*ウィンドウ幅が最大959pxまでの場合に適用*/
+/* ここまで */
 </style>

@@ -5,7 +5,7 @@
             Point
         </h5>
         <p class="pro_text">
-            Combioだからできること
+            師弟.comだからできること
         </p>
         <img src="image/point1.png" class="point_img">
         </div>
@@ -43,4 +43,27 @@ position: relative;
 top:30px;
 margin-bottom: 150px;
 }
+
+@media screen and (max-width: 959px) {
+.container{
+max-width: 959px;
+}
+.point_container{
+text-align: center;
+}
+h5{
+width: 200px;
+font-size: 48px;
+}
+.pro_text{
+font-size: 14px;
+}
+
+.point_img{
+width: 800px;
+}
+
+} /*ウィンドウ幅が最大959pxまでの場合に適用*/
+/* ここまで */
+
 </style>
