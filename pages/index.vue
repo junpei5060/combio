@@ -7,7 +7,6 @@
     <Characteristic></Characteristic>
     <Used></Used>
     <Voice></Voice>
-    <Form></Form>
     <Footer></Footer>
   </div>
 </template>
@@ -20,7 +19,6 @@
     import Characteristic from '@/components/Characteristic.vue';
     import Used from '@/components/Used.vue';
     import Voice from '@/components/Voice.vue';
-    import Form from '@/components/Form.vue';
     import Footer from '@/components/Footer.vue';
 
     export default {
@@ -32,7 +30,6 @@
             Characteristic,
             Used,
             Voice,
-            Form,
             Footer
         },
 

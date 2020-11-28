@@ -1,22 +1,20 @@
 <template>
   <div>
-    <AppHeader></AppHeader>
+    <transition name="page">
     <nuxt/>
+    </transition>
   </div>
 </template>
 
-<script>
-    import AppHeader from '@/components/AppHeader.vue';
- 
-    export default {
-        components: {
-            AppHeader,
-        },
-
-    };
-</script>
 
 <style>
+
+.page-enter {
+  opacity: 0;
+}
+.page-enter-active {
+  transition: opacity 2s;
+}
 html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;

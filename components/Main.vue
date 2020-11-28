@@ -14,7 +14,7 @@
                 今、所属する組織であなたが活躍する姿を想像してみてください<br>
                 そんな未来をお届けします。(要検討)
             </span>
-             <router-link to="#container" class="btn_top">無料相談を予約する</router-link>
+            <nuxt-link to="/form" class="btn_top">無料相談を予約する</nuxt-link>
         </div>
     </div>
 </template>
@@ -80,9 +80,8 @@ padding: 0 60px;
 text-align: center;
 text-decoration: none;
 white-space: nowrap;
-position: relative;
-top:100px;
-left: 210px;
+margin-top: 120px;
+margin-left: 200px;
 }
 
 .btn_top:hover {
