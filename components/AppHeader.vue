@@ -3,7 +3,7 @@
     <body>
       <header>
             <h1>
-                <a href="/" class="ppt"></a>師弟.com<br>
+                <a href="/" class="ppt"></a>師弟.<i>com</i><br>
             </h1>
             <nav class="pc-nav">
                 <!-- <ul>
@@ -30,8 +30,8 @@ header {
     justify-content: space-between; 
     padding: 10px 64px;
     overflow: hidden;
-    border-bottom:1px solid #707070;
-    box-shadow: 1px 2px #707070;
+    border-bottom:1px solid #DB0B40;
+    box-shadow: 1px 2px #DB0B40;
     position: fixed;
     z-index: 2;
     background-color: #fff;
@@ -42,6 +42,10 @@ margin: 0; padding: 0;
 font-size: 32px;
 display: flex;
 justify-content: start;
+}
+
+i{
+  color: #DB0B40;
 }
 
 nav {
@@ -71,7 +75,7 @@ v-enter-active, .v-leave-active {
 
 .btn_top{
     background-color: #273340;
-    border-radius: 5px;
+    border-radius: 20px;
     border: none;
     color: #fff;
     cursor: pointer;

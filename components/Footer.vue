@@ -13,7 +13,7 @@ height: 300px;
 text-align: center;
 padding: 50px 0;
 background-color: #707070;
-margin-top: 700px;
+margin-top: 300px;
 }
 .footer_text {
 color: #fff;

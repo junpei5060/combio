@@ -9,9 +9,9 @@
         </p>
         <div class="pic-ctn">
         <img src="image/Voice1.png" class="pic">
+        <img src="image/Voice2.png" class="pic">
         <img src="image/Voice1.png" class="pic">
-        <img src="image/Voice1.png" class="pic">
-        <img src="image/Voice1.png" class="pic">
+        <img src="image/Voice2.png" class="pic">
         <img src="image/Voice1.png" class="pic">
         </div>
         </div>
@@ -33,14 +33,17 @@ h5{
 width: 600px;
 transition: all .5s;
 font-size: 72px;
-border-bottom:3px solid #DB0B40;
+color: #263440;
+border-bottom:3px solid #263440;
 margin: 0 auto;
+margin-top: 160px;
 }
 
 .voice_text{
 transition: all .5s;
 font-size: 32px;
 font-weight: bold;
+color: #263440;
 }
 
 .pic-ctn{
@@ -81,6 +84,8 @@ left: 280px;
   opacity: 0;
   animation: display 10s infinite;
   width: 1000px;
+  border-radius: 30px;
+box-shadow: 0 2px 5px #ccc;
 }
 
 img:nth-child(2) {
@@ -144,7 +149,7 @@ left: 180px;
   top: 0;
   left: calc(50% - 67px);
   opacity: 0;
-  animation: display 10s infinite;
+  animation: display 30s infinite;
   width: 667px;
 }
 } /*ウィンドウ幅が最大959pxまでの場合に適用*/

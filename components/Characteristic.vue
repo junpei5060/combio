@@ -2,11 +2,41 @@
     <div class="container">
         <div class="Characteristic_container">
         <h5>
-            師弟.comの特徴
+            Use Case
         </h5>
-        <img src="image/Characteristic1.png" class="Characteristic_img">
-        <img src="image/Characteristic2.png" class="Characteristic_img">
-        <img src="image/Characteristic3.png" class="Characteristic_img" id="Characteristic_img3">
+        <p class="Characteristic_text">
+            こんな悩みを抱えるあなたにおすすめ
+        </p>
+        <div class="Characteristic_card">
+        <section class="card">
+            <div class="card-content">
+                <h1 class="card-title">社内リソースでは<br>
+                成長実感が得られない</h1>
+                <p class="card-text">自分が成し遂げたい目標設定や現状の課題の整理等プラニングをサポート。
+                    スポットでの相談ではなく、最低1ヵ月間、毎日継続的に目標の進捗度を測ったり、
+                    必要なアドバイスを提供することで自己実現を伴奏してサポートします。</p>
+            </div>
+        </section>
+        <section class="card">
+            <div class="card-content">
+                <h1 class="card-title">多忙で自己研鑽が後回し</h1>
+                <p class="card-text">メンター（プロ上司）はそれぞれ第一線で活躍する経験豊富な方が集まっており、
+                    自分のキャリアの一歩、二歩先を行く彼らに仕事の相談が可能。またマネジメントや営業等、
+                    自らの課題認識に最適なサポートをしてもらえるメンターを指名可能。
+                    週次でメンタリングを行うことで成長の加速を図ります。
+</p>
+            </div>
+        </section>
+        <section class="card">
+            <div class="card-content">
+                <h1 class="card-title">ロールモデルと呼べる人がいない</h1>
+                <p class="card-text">自身が掲げた目標設定の進捗状況や現状抱えている悩みの相談等、
+                    ざっくばらんに事務局サポーターと話すことができます。
+                    日報に対して毎日事務局目線でのフィードバックを実施し、
+                    成長を促進できるよう尽力します。</p>
+            </div>
+        </section>
+        </div>  
         </div>
     </div>
 </template>
@@ -17,27 +47,61 @@ height: 100%;
 width: 100%;
 max-width: 1440px;
 margin: 0 auto;
+margin-top: 760px;
+margin-bottom: 160px;
 }
 
 .Characteristic_container{
 text-align: center;
 }
 h5{
-width: 600px;
+width: 300px;
 transition: all .5s;
 font-size: 72px;
-border-bottom:3px solid #DB0B40;
+color: #263440;
+border-bottom:3px solid #263440;
 margin: 0 auto;
 }
-.Characteristic_img{
-width: 1200px;
-position: relative;
-top:30px;
-}
-#Characteristic_img3{
-margin-bottom: 150px;
+
+
+.Characteristic_text{
+transition: all .5s;
+font-size: 32px;
+font-weight: bold;
+color: #263440;
 }
 
+.Characteristic_card{
+    /* display: flex; */
+}
+
+.card {
+  margin: 30px auto;
+  width: 700px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px #ccc;
+}
+.card-img {
+  border-radius: 5px 5px 0 0;
+  max-width: 100%;
+  height: auto;
+}
+.card-content {
+  padding: 20px;
+}
+.card-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #DB0B40;
+}
+.card-text {
+  color: #263440;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: bold;
+}
 @media screen and (max-width: 959px) {
   .container{
 max-width: 959px;
