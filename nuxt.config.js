@@ -43,7 +43,6 @@ export default {
   build: {
   },
   router: {
-    base: '/combio/',
-    mode:history
+    base: '/combio/'
   },
 }
