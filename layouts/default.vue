@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <transition name="page">
     <nuxt/>
     </transition>
@@ -8,6 +8,8 @@
 
 
 <style>
+
+
 
 .page-enter {
   opacity: 0;
@@ -59,6 +61,12 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+
+/* @media (max-width: 479px) {
+  .container{
+    max-width: 375px;
+  }
+} */
 
 
 </style>

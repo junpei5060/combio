@@ -1,7 +1,7 @@
 <template>
   <div>
     <body>
-      <header>
+      <header class="container">
             <h1>
                 <a href="/" class="ppt"></a>師弟.<i>com</i><br>
             </h1>
@@ -35,6 +35,7 @@ header {
     position: fixed;
     z-index: 2;
     background-color: #fff;
+    
 }
 
 h1 {
@@ -102,20 +103,24 @@ v-enter-active, .v-leave-active {
 
 @media (max-width: 479px) {
 
+
 header {
+   box-sizing: border-box;
+    width: 100%;
     max-width: 100%;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between; 
-    padding: 15px 20px;
+    justify-content: space-between;
+    /* padding: 15px 0; */
     overflow: hidden;
-    border-bottom:1px solid #DB0B40;
+    border-bottom: 1px solid #DB0B40;
     box-shadow: 1px 2px #DB0B40;
     position: fixed;
     z-index: 2;
     background-color: #fff;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -124,6 +129,7 @@ padding: 0;
 font-size: 16px;
 display: flex;
 justify-content: start;
+padding-left: 20px;
 }
 
 i{
@@ -172,7 +178,8 @@ v-enter-active, .v-leave-active {
     text-decoration: none;
     transition: background-color .15s,color .15s ease-in-out;
     white-space: nowrap;
-    margin-right:15px;
+    
+
 }
 
 .btn_top:hover {

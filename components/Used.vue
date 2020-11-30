@@ -117,7 +117,7 @@ margin-bottom: 100px;
 .container{
 height: 100%;
 width: 100%;
-max-width: 390px;
+max-width: 100%;
 margin: 0 auto;
 }
 

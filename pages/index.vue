@@ -1,43 +1,43 @@
 <template>
-  <div>
+  <div class="container">
   <div class="bg"></div>
   <div class="bg bg2"></div>
   <div class="bg bg3"></div>
     <AppHeader></AppHeader>
-    <Main></Main>
+    <!-- <Main></Main>
     <Pro></Pro>
     <About></About>
     <Point></Point>
      <Voice></Voice>
     <Characteristic></Characteristic>
     <Used></Used>
-    <Footer></Footer>
+    <Footer></Footer> -->
 
   </div>
 </template>
 
 <script>
     import AppHeader from '@/components/AppHeader.vue';
-    import Main from '@/components/Main.vue';
-    import Pro from '@/components/ProIntroduction.vue';
-    import About from '@/components/About.vue';
-    import Point from '@/components/Point.vue';
-    import Characteristic from '@/components/Characteristic.vue';
-    import Used from '@/components/Used.vue';
-    import Voice from '@/components/Voice.vue';
-    import Footer from '@/components/Footer.vue';
+    // import Main from '@/components/Main.vue';
+    // import Pro from '@/components/ProIntroduction.vue';
+    // import About from '@/components/About.vue';
+    // import Point from '@/components/Point.vue';
+    // import Characteristic from '@/components/Characteristic.vue';
+    // import Used from '@/components/Used.vue';
+    // import Voice from '@/components/Voice.vue';
+    // import Footer from '@/components/Footer.vue';
 
     export default {
         components: {
             AppHeader,
-            Main,
-            Pro,
-            About,
-            Point,
-            Characteristic,
-            Used,
-            Voice,
-            Footer
+            // Main,
+            // Pro,
+            // About,
+            // Point,
+            // Characteristic,
+            // Used,
+            // Voice,
+            // Footer
         },
 
 
@@ -72,5 +72,11 @@ body {
 
 .bg3 {
   animation-duration:5s;
+}
+
+@media (max-width: 479px) {
+  .container{
+    width: 100%;
+  }
 }
 </style>
