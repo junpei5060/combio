@@ -76,7 +76,7 @@ text-align: center;
 text-decoration: none;
 white-space: nowrap;
 position: absolute;
-margin-top: 505px;
+margin-top: 500px;
 left: 42%;
 z-index: 2;
 }
@@ -112,4 +112,77 @@ margin-bottom: 100px;
 }
 } /*ウィンドウ幅が最大959pxまでの場合に適用*/
 /* ここまで */
+
+@media (max-width: 479px) {
+.container{
+height: 100%;
+width: 100%;
+max-width: 390px;
+margin: 0 auto;
+}
+
+.used_container{
+text-align: center;
+}
+h5{
+width: 250px;
+transition: all .5s;
+font-size: 40px;
+color: #263440;
+border-bottom:3px solid #263440;
+margin: 0 auto;
+}
+
+
+.used_text{
+transition: all .5s;
+font-size: 20px;
+font-weight: bold;
+color: #263440;
+}
+
+.user_btn{
+position: relative;
+}
+
+.Used_img{
+width: 370px;
+position: relative;
+top:30px;
+border-radius: 20px;
+box-shadow: 0 2px 5px #ccc;
+
+}
+
+.btn_top{
+background-color: #273340;
+border-radius: 20px;
+border: none;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+font-size: 6px;
+font-weight: 500;
+height: 18px;
+letter-spacing: .2px;
+line-height: 18px;
+padding: 0 20px;
+text-align: center;
+text-decoration: none;
+white-space: nowrap;
+margin-top:30px;
+margin-top: 180px;
+left: 32%;
+z-index: 2;
+}
+
+.btn_top:hover {
+background-color: #DB0B40;
+transition: all .5s;
+}
+.btn_top:active {
+top: 3px;
+box-shadow: none;
+}  
+}
 </style>

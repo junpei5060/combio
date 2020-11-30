@@ -82,11 +82,6 @@ color: #263440;
   border-radius: 20px;
   box-shadow: 0 2px 5px #ccc;
 }
-.card-img {
-  border-radius: 5px 5px 0 0;
-  max-width: 100%;
-  height: auto;
-}
 .card-content {
   padding: 20px;
 }
@@ -117,4 +112,62 @@ width: 800px;
 } /*ウィンドウ幅が最大959pxまでの場合に適用*/
 /* ここまで */
 
+@media (max-width: 479px) {
+.container{
+height: 100%;
+width: 100%;
+max-width: 1440px;
+margin: 0 auto;
+margin-top: 500px;
+margin-bottom: 100px;
+}
+
+.Characteristic_container{
+text-align: center;
+}
+h5{
+width: 250px;
+transition: all .5s;
+font-size: 40px;
+color: #263440;
+border-bottom:3px solid #263440;
+margin: 0 auto;
+}
+
+
+.Characteristic_text{
+transition: all .5s;
+font-size: 20px;
+font-weight: bold;
+color: #263440;
+}
+
+.Characteristic_card{
+    /* display: flex; */
+}
+
+.card {
+  margin: 30px auto;
+  width: 330px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px #ccc;
+}
+
+.card-content {
+  padding: 12px;
+}
+.card-title {
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #DB0B40;
+}
+.card-text {
+  color: #263440;
+  font-size: 14px;
+  line-height: 1.9;
+  font-weight: bold;
+}
+}
 </style>

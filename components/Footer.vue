@@ -9,13 +9,24 @@
 <style scoped>
 footer {
 width: 100%;
-height: 300px; 
+height: 200px; 
 text-align: center;
 padding: 50px 0;
 background-color: #707070;
-margin-top: 300px;
+margin-top: 200px;
 }
 .footer_text {
 color: #fff;
+}
+
+@media (max-width: 479px) {
+footer {
+width: 100%;
+height: 200px; 
+text-align: center;
+padding: 50px 0;
+background-color: #707070;
+margin-top: 70px;
+}
 }
 </style>

@@ -99,40 +99,88 @@ v-enter-active, .v-leave-active {
   top: 3px;
   box-shadow: none;
 }
-/* スマホ対応 */
-@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
-body{
-  overflow:hidden;
-}
 
-
+@media (max-width: 479px) {
 header {
-padding: 30px 4% 10px;
-position: fixed;
-top: 0;
-width: 100%;
-background-color: transparent;
-display: flex;
-align-items: center;
-z-index: 2;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 15px 20px;
+    overflow: hidden;
+    border-bottom:1px solid #DB0B40;
+    box-shadow: 1px 2px #DB0B40;
+    position: fixed;
+    z-index: 2;
+    background-color: #fff;
+    width: 100%;
+    max-width: 390px;
 }
 
-h1{
-margin: 0; padding: 0;
+h1 {
+margin: 0; 
+padding: 0;
 font-size: 16px;
+display: flex;
+justify-content: start;
 }
 
-ul{
+i{
+  color: #DB0B40;
+}
+
+nav {
+margin: 0 0 0 auto;
+}
+ul {
 list-style: none;
+margin: 0 auto;
 display: flex;
-margin-right: 100px;
 font-weight: bold;
 }
+li {
+margin: 0;
+font-size: 20px;
+font-weight: bold;
+text-decoration: none;
+color: #666666;
+display: flex;
+justify-content: end;
+}
+v-enter-active, .v-leave-active {
+  transition: opacity .5s;
+}
+.v-enter, .v-leave-to {
+  opacity: 0;
+}
 
-li{
-font-size: 12px;
+.btn_top{
+    background-color: #273340;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 500;
+    height: 24px;
+    letter-spacing: .5px;
+    line-height: 24px;
+    padding: 0 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .15s,color .15s ease-in-out;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+.btn_top:hover {
+  background-color: #DB0B40;
+}
+.btn_top:active {
+  top: 3px;
+  box-shadow: none;
 }
 }
-
-
 </style>
