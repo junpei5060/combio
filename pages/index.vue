@@ -9,9 +9,9 @@
     <About></About>
     <Point></Point>
      <Voice></Voice>
-    <!-- <Characteristic></Characteristic>
+    <Characteristic></Characteristic>
     <Used></Used>
-    <Footer></Footer> -->
+    <Footer></Footer>
 
   </div>
 </template>
@@ -23,9 +23,9 @@
     import About from '@/components/About.vue';
     import Point from '@/components/Point.vue';
      import Voice from '@/components/Voice.vue';
-    // import Characteristic from '@/components/Characteristic.vue';
-    // import Used from '@/components/Used.vue';
-    // import Footer from '@/components/Footer.vue';
+    import Characteristic from '@/components/Characteristic.vue';
+    import Used from '@/components/Used.vue';
+    import Footer from '@/components/Footer.vue';
 
     export default {
         components: {
@@ -35,9 +35,9 @@
             About,
             Point,
             Voice,
-            // Characteristic,
-            // Used,
-            // Footer
+            Characteristic,
+            Used,
+            Footer
         },
 
 
