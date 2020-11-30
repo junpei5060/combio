@@ -4,9 +4,9 @@
   <div class="bg bg2"></div>
   <div class="bg bg3"></div>
     <AppHeader></AppHeader>
-     <Main></Main><!--
+     <Main></Main>
     <Pro></Pro>
-    <About></About>
+    <!-- <About></About>
     <Point></Point>
      <Voice></Voice>
     <Characteristic></Characteristic>
@@ -19,7 +19,7 @@
 <script>
     import AppHeader from '@/components/AppHeader.vue';
     import Main from '@/components/Main.vue';
-    // import Pro from '@/components/ProIntroduction.vue';
+    import Pro from '@/components/ProIntroduction.vue';
     // import About from '@/components/About.vue';
     // import Point from '@/components/Point.vue';
     // import Characteristic from '@/components/Characteristic.vue';
@@ -31,7 +31,7 @@
         components: {
             AppHeader,
             Main,
-            // Pro,
+            Pro,
             // About,
             // Point,
             // Characteristic,
