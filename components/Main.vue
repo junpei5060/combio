@@ -15,7 +15,9 @@
                     そんな未だ見たことない景色を私たちと一緒に見てみませんか？
                 </span>
                 <!-- <div class="btn"> -->
+                <div class="btn">
                 <nuxt-link to="/form" class="btn_top">無料相談を予約する</nuxt-link>
+                </div>
                 <!-- <nuxt-link to="/form" class="btn_top1">プロ上司を見つける</nuxt-link> -->
                 <!-- </div> -->
         </div>
@@ -162,48 +164,6 @@ top: 3px;
 box-shadow: none;
 } */
 
-@media screen and (max-width: 959px) {
-.container{
-max-width: 959px;
-}
-.main_mess{
-width: 465px;
-margin-left: 53px;
-font-size: 48px;
-}
-
-.main_img{
-width: 400px;
-height: 300px;
-position: relative;
-top:100px;
-left: 10px;
-}
-
-.text_btn{
-display: flex;
-}
-
-.main_text{
-color: #273240;
-margin-left: 53px;
-font-size: 12px;
-}
-
-.btn_top{
-border-radius: 5px;
-font-size: 14px;
-height: 45px;
-letter-spacing: .5px;
-line-height: 45px;
-padding: 0 40px;
-margin-top: 10px;
-margin-left: 120px;
-}
-
-} /*ウィンドウ幅が最大959pxまでの場合に適用*/
-/* ここまで */
-
 
 @media (max-width: 479px) {
 .full {
@@ -227,12 +187,11 @@ display: flex;
 }
 
 .main_mess{
-width: 390px;
+width: 100%;
 margin-top: 200px;
-margin-bottom: 70px;
-margin-right: 0;
-margin-left: 50px;
+text-align: center;
 transition: all .5s;
+margin-left: 0;
 font-size: 22px;
 color:#DB0B40;
   text-shadow:
@@ -255,10 +214,10 @@ display: flex;
 }
 
 .main_text{
-width: 280px;
+width: 80%;
+margin: 0 auto;
 display: flex;
 color: #ffffff;
-margin-left: 50px;
 transition: all .5s;
 font-size: 12px;
 line-height: 20px;
@@ -275,10 +234,11 @@ text-shadow:
 0 3px 4px rgba(255, 255, 255, 0.2),
 0 0 20px rgba(255, 255, 255, 0.45);
 }
-/* 
+
 .btn{
     display: flex;
-} */
+    margin-top: 30px;
+}
 
 .btn_top{
 background-color: #273340;
@@ -296,8 +256,8 @@ padding: 0 30px;
 text-align: center;
 text-decoration: none;
 white-space: nowrap;
-margin-top:30px;
-margin-left: 105px;
+margin: 0 auto;
+
 }
 
 .btn_top:hover {
