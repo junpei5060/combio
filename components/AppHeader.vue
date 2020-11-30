@@ -5,7 +5,7 @@
             <h1>
                 <a href="/" class="ppt"></a>師弟.<i>com</i><br>
             </h1>
-            <nav class="pc-nav">
+            <nav>
                 <!-- <ul>
                     <li class="btn_top">無料相談を予約する</li>
                 </ul> -->
@@ -101,8 +101,9 @@ v-enter-active, .v-leave-active {
 }
 
 @media (max-width: 479px) {
+
 header {
-    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -171,7 +172,7 @@ v-enter-active, .v-leave-active {
     text-decoration: none;
     transition: background-color .15s,color .15s ease-in-out;
     white-space: nowrap;
-    margin-right: 20px;
+    margin-right:15px;
 }
 
 .btn_top:hover {

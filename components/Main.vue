@@ -1,6 +1,7 @@
 <template>
-    <div class="full">
+    
         <div class="container">
+            <div class="full">
             <div class="top_container">
                 <h3 class="main_mess">
                     一人では
@@ -208,25 +209,25 @@ margin-left: 120px;
 @media (max-width: 479px) {
 .full {
   position: relative;
-  width: 100%;
+
   min-height: 700px;
   background: url("https://images.unsplash.com/photo-1544027993-37dbfe43562a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2250&q=80") top center / cover no-repeat;
 }
 
 .container{
     height: 100%;
-    width: 100%;
-    max-width: 390px;
+    /* width: 100%; */
+    max-width: 100%;
     margin: 0 auto;
+    overflow : hidden ;
 }
 
 .top_container{
 display: flex;
-
+/* width: 100%; */
 }
 
 .main_mess{
-width: 390px;
 margin-top: 200px;
 margin-bottom: 70px;
 margin-right: 0;
@@ -254,7 +255,7 @@ display: flex;
 }
 
 .main_text{
-width: 280px;
+width: 70%;
 display: flex;
 color: #ffffff;
 margin-left: 50px;
