@@ -102,6 +102,7 @@ v-enter-active, .v-leave-active {
 
 @media (max-width: 479px) {
 header {
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -114,8 +115,6 @@ header {
     position: fixed;
     z-index: 2;
     background-color: #fff;
-    width: 100%;
-    max-width: 390px;
 }
 
 h1 {
