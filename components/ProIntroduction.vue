@@ -78,16 +78,15 @@ margin: 0 auto;
 }
 
 .pro_text{
-width: 500px;
+width: 100%;
+max-width: 500px;
 color: #273240;
 font-size: 40px;
 transition: all .5s;
 line-height: 70px;
 font-weight: bold;
 border-bottom:3px solid #ffffff;
-margin-left: 80px;
-margin-top: 120px;
-margin-bottom: 100px;
+margin: 120px 0 100px 0;
 }
 
 span{

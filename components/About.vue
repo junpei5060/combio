@@ -35,7 +35,9 @@
                 一人では辿り着けなかった場所に辿りつけます
                 </p>
             </div>
+            <div class="btn">
             <nuxt-link to="/form" class="btn_top">無料相談を予約する</nuxt-link>
+            </div>
         </section>
         </div>
     </div>
@@ -204,6 +206,11 @@ color: #DB0B40;
   font-weight: bold;
 }
 
+.btn{
+    display: flex;
+    margin-top: 30px;
+}
+
 .btn_top{
 background-color: #273340;
 border-radius: 20px;
@@ -220,8 +227,7 @@ padding: 0 30px;
 text-align: center;
 text-decoration: none;
 white-space: nowrap;
-margin-top:30px;
-margin-left: 80px;
+margin: 0 auto;
 }
 
 .btn_top:hover {

@@ -6,10 +6,10 @@
     <AppHeader></AppHeader>
      <Main></Main>
     <Pro></Pro>
-    <!-- <About></About>
+    <About></About>
     <Point></Point>
      <Voice></Voice>
-    <Characteristic></Characteristic>
+    <!-- <Characteristic></Characteristic>
     <Used></Used>
     <Footer></Footer> -->
 
@@ -20,11 +20,11 @@
     import AppHeader from '@/components/AppHeader.vue';
     import Main from '@/components/Main.vue';
     import Pro from '@/components/ProIntroduction.vue';
-    // import About from '@/components/About.vue';
-    // import Point from '@/components/Point.vue';
+    import About from '@/components/About.vue';
+    import Point from '@/components/Point.vue';
+     import Voice from '@/components/Voice.vue';
     // import Characteristic from '@/components/Characteristic.vue';
     // import Used from '@/components/Used.vue';
-    // import Voice from '@/components/Voice.vue';
     // import Footer from '@/components/Footer.vue';
 
     export default {
@@ -32,11 +32,11 @@
             AppHeader,
             Main,
             Pro,
-            // About,
-            // Point,
+            About,
+            Point,
+            Voice,
             // Characteristic,
             // Used,
-            // Voice,
             // Footer
         },
 
