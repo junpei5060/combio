@@ -189,10 +189,11 @@ display: flex;
 .main_mess{
 width: 100%;
 margin-top: 200px;
+margin-bottom: 70px;
 text-align: center;
 transition: all .5s;
 margin-left: 0;
-font-size: 22px;
+font-size: 26px;
 color:#DB0B40;
   text-shadow:
     0 0 2px rgba(204, 208, 212,0.9),
