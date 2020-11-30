@@ -27,6 +27,7 @@ text-align: center;
 padding: 50px 0;
 background-color: #707070;
 margin-top: 70px;
+max-width: 390px;
 }
 }
 </style>

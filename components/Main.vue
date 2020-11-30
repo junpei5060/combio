@@ -208,7 +208,7 @@ margin-left: 120px;
 @media (max-width: 479px) {
 .full {
   position: relative;
-  width: 390px;
+  width: 100%;
   min-height: 700px;
   background: url("https://images.unsplash.com/photo-1544027993-37dbfe43562a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2250&q=80") top center / cover no-repeat;
 }

@@ -212,8 +212,8 @@ margin-bottom: 200px;
 @media (max-width: 479px) {
 .container{
 height: 100%;
-width: 390px;
-max-width: 1440px;
+width: 100%;
+max-width: 390px;
 margin: 0 auto;
 }
 

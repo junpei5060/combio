@@ -116,7 +116,7 @@ width: 800px;
 .container{
 height: 100%;
 width: 100%;
-max-width: 1440px;
+max-width: 390px;
 margin: 0 auto;
 margin-top: 500px;
 margin-bottom: 100px;
