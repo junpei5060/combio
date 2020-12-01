@@ -46,7 +46,7 @@ display: flex;
 
 .main_mess{
 width: 1440px;
-margin-top: 300px;
+margin-top: 250px;
 margin-bottom: 110px;
 margin-right: 0;
 margin-left: 250px;
