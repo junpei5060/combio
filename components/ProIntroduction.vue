@@ -22,6 +22,7 @@
                     <span class="profile-job">CEO</span>
                     <span class="profile-intro">【話せる内容】#起業 #新規事業 #創業者 #教育 #デザイン #UX #組織づくり #ワークショップデザイン#サービス開発 #コンテンツディレクター#コミュニティ#不動産
                     </span>
+                    
                 </div>
             </div>
         </div>
@@ -68,6 +69,21 @@
     </div>
 </template>
 
+<script>
+export default {
+    data(){
+      return {
+        showModal: false
+      }
+    },methods: {
+      click01: function (ev) {
+        this.showModal = false
+        ev.preventDefault()
+      }
+    }
+}
+</script>
+
 <style scoped>
 
 .container{
@@ -101,6 +117,7 @@ top:100px;
 left: 50px;
 margin-bottom: 200px;
 } */
+
 
 .profile-card{
   width: 100%;

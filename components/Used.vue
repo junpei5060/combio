@@ -10,7 +10,9 @@
         <div class="user_btn">
         
         <img src="image/Used1.png" class="Used_img">
-        <nuxt-link to="/form" class="btn_top">無料相談を予約する</nuxt-link>
+        <img src="image/Flow1.png" class="Flow_img">
+        
+            <nuxt-link to="/form" class="btn_top">無料相談を予約する</nuxt-link>
         </div>
         
         </div>
@@ -48,6 +50,7 @@ color: #263440;
 
 .user_btn{
 position: relative;
+display: flex;
 }
 
 .Used_img{
@@ -56,7 +59,7 @@ position: relative;
 top:30px;
 border-radius: 20px;
 box-shadow: 0 2px 5px #ccc;
-
+/* display: block; */
 }
 
 .btn_top{
@@ -90,6 +93,9 @@ top: 3px;
 box-shadow: none;
 }
 
+.Flow_img{
+display: none;
+}
 
 /* ここがレスポンシブ（ipad）対応 */
 @media screen and (max-width: 959px) {
@@ -143,6 +149,7 @@ color: #263440;
 
 .user_btn{
 position: relative;
+display: flex;
 }
 
 .Used_img{
@@ -151,8 +158,26 @@ position: relative;
 top:30px;
 border-radius: 20px;
 box-shadow: 0 2px 5px #ccc;
-
+display: none;
 }
+
+.Flow_img{
+/* display: block;
+width: 370px;
+max-width: 80%;
+border-radius: 20px;
+box-shadow: 0 2px 5px #ccc;
+margin: 0 auto; */
+  width: 100%;
+  max-width: 330px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+  border-radius: 20px;
+  margin: 30px auto;
+  display: block;
+}
+
 
 .btn_top{
 background-color: #273340;
@@ -161,19 +186,19 @@ border: none;
 color: #fff;
 cursor: pointer;
 display: inline-block;
-font-size: 6px;
+font-size: 10px;
 font-weight: 500;
-height: 18px;
-letter-spacing: .2px;
-line-height: 18px;
-padding: 0 20px;
+height: 24px;
+letter-spacing: .5px;
+line-height: 24px;
+padding: 0 30px;
 text-align: center;
 text-decoration: none;
 white-space: nowrap;
-margin-top:30px;
-margin-top: 180px;
+position: absolute;
 left: 32%;
 z-index: 2;
+margin-top: 460px;
 }
 
 .btn_top:hover {
@@ -183,6 +208,6 @@ transition: all .5s;
 .btn_top:active {
 top: 3px;
 box-shadow: none;
-}  
+} 
 }
 </style>
