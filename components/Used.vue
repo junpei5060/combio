@@ -60,6 +60,7 @@ top:30px;
 border-radius: 20px;
 box-shadow: 0 2px 5px #ccc;
 /* display: block; */
+margin: 0 auto;
 }
 
 .btn_top{
@@ -98,7 +99,7 @@ display: none;
 }
 
 /* ここがレスポンシブ（ipad）対応 */
-@media screen and (max-width: 959px) {
+/* @media screen and (max-width: 959px) {
     .container{
 max-width: 959px;
 }
@@ -116,7 +117,8 @@ position: relative;
 top:20px;
 margin-bottom: 100px;
 }
-} /*ウィンドウ幅が最大959pxまでの場合に適用*/
+}  */
+/*ウィンドウ幅が最大959pxまでの場合に適用*/
 /* ここまで */
 
 @media (max-width: 479px) {
@@ -153,11 +155,11 @@ display: flex;
 }
 
 .Used_img{
-width: 370px;
+/* width: 370px;
 position: relative;
 top:30px;
 border-radius: 20px;
-box-shadow: 0 2px 5px #ccc;
+box-shadow: 0 2px 5px #ccc; */
 display: none;
 }
 
@@ -171,7 +173,6 @@ margin: 0 auto; */
   width: 100%;
   max-width: 330px;
   background: #fff;
-  border-radius: 5px;
   box-shadow: 0 2px 5px #ccc;
   border-radius: 20px;
   margin: 30px auto;
