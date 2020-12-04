@@ -37,9 +37,9 @@
             Voice,
             Characteristic,
             Used,
-            Footer
+            Footer,
         },
-
+        
 
     };
 </script>

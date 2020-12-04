@@ -24,6 +24,7 @@
     </div>
 </template>
 
+
 <style scoped>
 .full {
   position: relative;
@@ -61,7 +62,21 @@ color:#DB0B40;
     0 5px 10px rgba(0, 0, 0, 0.3),
     0 3px 4px rgba(255, 255, 255, 0.2),
     0 0 20px rgba(255, 255, 255, 0.45);
-    
+     animation-name: fade-in1;
+    animation-duration: 4s;
+    animation-timing-function: ease-out; 
+    animation-delay: 1s; 
+    animation-iteration-count: 1;
+    animation-direction: normal; 
+    animation-fill-mode: forwards; 
+  }
+   @keyframes fade-in1 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 
 .main_mess:hover{
