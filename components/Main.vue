@@ -179,6 +179,111 @@ top: 3px;
 box-shadow: none;
 } */
 
+@media (max-width: 896px) {
+.full {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  min-height: 600px;
+  background: url("https://images.unsplash.com/photo-1544027993-37dbfe43562a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2250&q=80") top center / cover no-repeat;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.top_container{
+display: flex;
+
+}
+
+.main_mess{
+width: 100%;
+margin-top: 200px;
+margin-bottom: 70px;
+text-align: center;
+transition: all .5s;
+margin-left: 0;
+font-size: 26px;
+color:#DB0B40;
+  text-shadow:
+    0 0 2px rgba(204, 208, 212,0.9),
+    0 15px 25px rgba(0, 0, 0, 0.3),
+    0 -2px 3px rgba(0, 0, 0, 0.1),
+    0 -5px 10px rgba(255, 255, 255, 0.5),
+    0 5px 10px rgba(0, 0, 0, 0.3),
+    0 3px 4px rgba(255, 255, 255, 0.2),
+    0 0 20px rgba(255, 255, 255, 0.45);
+    
+  }
+
+.main_mess:hover{
+   transition: all .5s;
+   color: #ffffff; 
+}
+.text_btn{
+display: flex;
+}
+
+.main_text{
+width: 80%;
+margin: 0 auto;
+display: flex;
+color: #ffffff;
+transition: all .5s;
+font-size: 12px;
+line-height: 20px;
+font-weight: bold;
+border-left:3px solid#DB0B40;
+padding: 0.25em 1.5em;
+letter-spacing: 0.1em;
+text-shadow:
+0 0 2px rgba(204, 208, 212,0.9),
+0 15px 25px rgba(0, 0, 0, 0.3),
+0 -2px 3px rgba(0, 0, 0, 0.1),
+0 -5px 10px rgba(255, 255, 255, 0.5),
+0 5px 10px rgba(0, 0, 0, 0.3),
+0 3px 4px rgba(255, 255, 255, 0.2),
+0 0 20px rgba(255, 255, 255, 0.45);
+}
+
+.btn{
+    display: flex;
+    margin-top: 30px;
+}
+
+.btn_top{
+background-color: #273340;
+border-radius: 20px;
+border: none;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+font-size: 12px;
+font-weight: 500;
+height: 54px;
+letter-spacing: .5px;
+line-height: 54px;
+padding: 0 30px;
+text-align: center;
+text-decoration: none;
+white-space: nowrap;
+margin: 0 auto;
+
+}
+
+.btn_top:hover {
+background-color: #DB0B40;
+transition: all .5s;
+}
+.btn_top:active {
+top: 3px;
+box-shadow: none;
+}
+}
 
 @media (max-width: 479px) {
 .full {

@@ -115,26 +115,74 @@ margin-bottom: 150px;
 
 @media screen and (max-width: 959px) {
 .container{
-max-width: 959px;
+height: 100%;
+width: 100%;
+max-width: 100%;
+margin: 0 auto;
 }
+
 .point_container{
 text-align: center;
+margin-top: 80px;
 }
 h5{
-width: 200px;
-font-size: 48px;
+width: 250px;
+transition: all .5s;
+font-size: 40px;
+color: #263440;
+border-bottom:3px solid #263440;
+margin: 0 auto;
 }
+
+
 .pro_text{
-font-size: 14px;
+transition: all .5s;
+font-size: 20px;
+font-weight: bold;
+color: #263440;
 }
 
-.point_img{
-width: 800px;
+/* .point_img{
+width: 1200px;
+position: relative;
+top:30px;
+margin-bottom: 150px;
+} */
+
+.point_card{
+    display: flex;
+    flex-direction: column;
 }
 
-} /*ウィンドウ幅が最大959pxまでの場合に適用*/
-/* ここまで */
+.card {
+  margin: 30px auto;
+  width: 550px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+}
+.card-img {
+  border-radius: 5px 5px 0 0;
+  max-width: 100%;
+  height: auto;
+}
+.card-content {
+  padding: 20px;
+}
+.card-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #DB0B40;
+}
+.card-text {
+  color: #263440;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: bold;
+}
 
+}
 
 @media (max-width: 479px) {
 
