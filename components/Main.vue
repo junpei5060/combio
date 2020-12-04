@@ -9,10 +9,9 @@
                 <!-- <img src="image/top1.png" class="main_img"> -->
             </div>
                 <span class="main_text">
-                    師弟.comは、ビジネスのプロであり、マネジメントのプロでもあるプロ上司が<br>
-                    あなたをトップビジネスマンへと成長させます。<br>
-                    今、所属する組織での活躍、今、抱えている大きなプロジェクトの成功<br>
-                    そんな未だ見たことない景色を私たちと一緒に見てみませんか？
+                師弟.comは、ビジネスのプロであり、マネジメントのプロでもあるプロ上司があなたをトップビジネスマンへと成長させます。<br>
+                今、所属する組織での活躍、今、抱えている大きなプロジェクトの<br>
+                成功そんな未だ見たことない景色を私たちと一緒に見てみませんか？
                 </span>
                 <!-- <div class="btn"> -->
                 <div class="btn">
@@ -97,6 +96,7 @@ display: flex;
 }
 
 .main_text{
+width: 54%;
 display: flex;
 color: #ffffff;
 margin-left: 400px;
@@ -229,7 +229,7 @@ display: flex;
 }
 
 .main_text{
-width: 80%;
+width: 59%;
 margin: 0 auto;
 display: flex;
 color: #ffffff;
