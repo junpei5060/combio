@@ -65,7 +65,7 @@ color:#DB0B40;
      animation-name: fade-in1;
     animation-duration: 4s;
     animation-timing-function: ease-out; 
-    animation-delay: 1s; 
+    animation-delay: 0s; 
     animation-iteration-count: 1;
     animation-direction: normal; 
     animation-fill-mode: forwards; 
