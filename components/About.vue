@@ -199,7 +199,7 @@ color: #263440;
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 5px #ccc;
-  height: 1030px;
+  height: 1000px;
   border-radius: 20px;
 }
 .card-content {
