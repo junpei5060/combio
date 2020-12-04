@@ -27,7 +27,6 @@ width: 100%;
 max-width: 1440px;
 margin: 0 auto;
 }
-
 .used_container{
 text-align: center;
 }
@@ -39,20 +38,16 @@ color: #263440;
 border-bottom:3px solid #263440;
 margin: 0 auto;
 }
-
-
 .used_text{
 transition: all .5s;
 font-size: 32px;
 font-weight: bold;
 color: #263440;
 }
-
 .user_btn{
 position: relative;
 display: flex;
 }
-
 .Used_img{
 width: 1200px;
 position: relative;
@@ -62,7 +57,6 @@ box-shadow: 0 2px 5px #ccc;
 /* display: block; */
 margin: 0 auto;
 }
-
 .btn_top{
 background-color: #273340;
 border-radius: 20px;
@@ -84,7 +78,6 @@ margin-top: 500px;
 left: 42%;
 z-index: 2;
 }
-
 .btn_top:hover {
 background-color: #DB0B40;
 transition: all .5s;
@@ -93,17 +86,14 @@ transition: all .5s;
 top: 3px;
 box-shadow: none;
 }
-
 .Flow_img{
 display: none;
 }
-
 /* ここがレスポンシブ（ipad）対応 */
 /* @media screen and (max-width: 959px) {
     .container{
 max-width: 959px;
 }
-
 .Used_container{
 text-align: center;
 }
@@ -120,7 +110,6 @@ margin-bottom: 100px;
 }  */
 /*ウィンドウ幅が最大959pxまでの場合に適用*/
 /* ここまで */
-
 @media (max-width: 479px) {
 .container{
 height: 100%;
@@ -128,7 +117,6 @@ width: 100%;
 max-width: 100%;
 margin: 0 auto;
 }
-
 .used_container{
 text-align: center;
 }
@@ -140,20 +128,16 @@ color: #263440;
 border-bottom:3px solid #263440;
 margin: 0 auto;
 }
-
-
 .used_text{
 transition: all .5s;
 font-size: 20px;
 font-weight: bold;
 color: #263440;
 }
-
 /* .user_btn{
 position: relative;
 display: flex;
 } */
-
 .Used_img{
 /* width: 370px;
 position: relative;
@@ -162,7 +146,6 @@ border-radius: 20px;
 box-shadow: 0 2px 5px #ccc; */
 display: none;
 }
-
 .Flow_img{
 /* display: block;
 width: 370px;
@@ -179,8 +162,6 @@ margin: 0 auto; */
   margin: 30px auto;
   display: block;
 }
-
-
 .btn_top{
 background-color: #273340;
 border-radius: 20px;
@@ -202,7 +183,6 @@ left: 32%;
 z-index: 2;
 margin-top: 380px;
 }
-
 .btn_top:hover {
 background-color: #DB0B40;
 transition: all .5s;

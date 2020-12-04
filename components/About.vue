@@ -35,6 +35,9 @@
                 一人では辿り着けなかった場所に辿りつけます
                 </p>
             </div>
+            
+            <p class="form_title">無料相談に申し込む</p>
+            <p class="form_text">下記申し込みフォームより必要事項を記入し、<br>お申し込みください</p>
             <div class="btn">
             <nuxt-link to="/form" class="btn_top">無料相談を予約する</nuxt-link>
             </div>
@@ -77,7 +80,7 @@ color: #263440;
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 5px #ccc;
-  height: 800px;
+  height: 900px;
   border-radius: 20px;
 }
 .card-content {
@@ -110,6 +113,27 @@ color: #DB0B40;
   font-weight: bold;
 }
 
+.form_title{
+width: 300px;
+transition: all .5s;
+font-size: 20px;
+color: #263440;
+border-bottom:3px solid #DB0B40;
+margin: 30px auto;
+font-weight: bold;
+text-align: center;
+}
+
+.form_text{
+width: 300px;
+transition: all .5s;
+font-size: 12px;
+color: #263440;
+margin: 0 auto;
+font-weight: bold;
+text-align: center;
+}
+
 .btn_top{
 background-color: #273340;
 border-radius: 20px;
@@ -126,7 +150,7 @@ padding: 0 60px;
 text-align: center;
 text-decoration: none;
 white-space: nowrap;
-margin-top:30px;
+margin-top:15px;
 margin-left: 280px;
 }
 
@@ -138,6 +162,7 @@ transition: all .5s;
 top: 3px;
 box-shadow: none;
 }
+
 
 @media (max-width: 479px) {
 .container{
@@ -168,12 +193,13 @@ color: #263440;
 }    
 
 .card {
+  width: 100%;
   margin: 30px auto;
   width: 330px;
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 5px #ccc;
-  height: 960px;
+  height: 1030px;
   border-radius: 20px;
 }
 .card-content {
@@ -205,6 +231,30 @@ color: #DB0B40;
   line-height: 1.9;
   font-weight: bold;
 }
+
+.form_title{
+width: 100%;
+max-width: 150px;
+transition: all .5s;
+font-size: 14px;
+color: #263440;
+border-bottom:3px solid #DB0B40;
+margin: 15px auto;
+font-weight: bold;
+text-align: center;
+}
+
+.form_text{
+width: 100%;
+max-width: 270px;
+transition: all .5s;
+font-size: 12px;
+color: #263440;
+margin: 0 auto;
+font-weight: bold;
+text-align: center;
+}
+
 
 .btn{
     display: flex;

@@ -102,7 +102,7 @@ transition: all .5s;
 line-height: 70px;
 font-weight: bold;
 border-bottom:3px solid #ffffff;
-margin: 120px 0 100px 0;
+margin: 120px 0 120px 0;
 }
 
 span{
