@@ -10,7 +10,7 @@
         <div class="user_btn">
         
         <img src="image/Used1.png" class="Used_img">
-        <img src="image/Flow.png" class="Flow_img">
+        <img src="image/Flow5.png" class="Flow_img">
         
             <nuxt-link to="/form" class="btn_top">無料相談を予約する</nuxt-link>
         </div>
@@ -225,7 +225,7 @@ border-radius: 20px;
 box-shadow: 0 2px 5px #ccc;
 margin: 0 auto; */
   width:330px;
-  height: 400px;
+  height: 550px;
   max-width: 100%;
   background: #fff;
   box-shadow: 0 2px 5px #ccc;
@@ -252,7 +252,7 @@ white-space: nowrap;
 position: absolute;
 left: 32%;
 z-index: 2;
-margin-top: 380px;
+margin-top: 520px;
 }
 .btn_top:hover {
 background-color: #DB0B40;
