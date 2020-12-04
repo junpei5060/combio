@@ -82,6 +82,7 @@ color: #263440;
   box-shadow: 0 2px 5px #ccc;
   height: 900px;
   border-radius: 20px;
+  background: rgba(255, 255, 255, 0.891);
 }
 .card-content {
   padding: 20px;

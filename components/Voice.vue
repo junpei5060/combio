@@ -15,7 +15,9 @@
         <img src="image/Voice1.png" class="pic">
         </div>
 
-        <div class="pic-smp">
+        <ul class="pic-smp">
+        <li>
+        <!-- <div class="pic-smp"> -->
           <div class="profile-card">
             <div class="profile-card__inner">
                 <div class="profile-thumb">
@@ -30,12 +32,13 @@
                         <span class="profile-name">鬼頭 史到</span>
                     </div>
                     <span class="profile-job">CEO</span>
-                    <span class="profile-intro">【話せる内容】#起業 #新規事業 #創業者 #教育 #デザイン #UX #組織づくり #ワークショップデザイン#サービス開発 #コンテンツディレクター#コミュニティ#不動産
-                    </span>
+                    <span class="profile-intro">【話せる内容】#起業 #新規事業 </span>
                 </div>
             </div>
         </div>
-        <div class="second_stage">
+        </li>
+        <li>
+        <!-- <div class="second_stage"> -->
             <div class="profile-card">
                 <div class="profile-card__inner">
                     <div class="profile-thumb">
@@ -50,14 +53,61 @@
                         <span class="profile-name">濱坂 愛音</span>
                         </div>
                         <span class="profile-job">株式会社10X PM</span>
-                        <span class="profile-intro">【話せる内容】#起業 #新規事業 #創業者 #教育 #デザイン #UX #組織づくり #ワークショップデザイン#サービス開発 #コンテンツディレクター#コミュニティ#不動産
+                        <span class="profile-intro">【話せる内容】#起業 #新規事業 
                         </span>
                     </div>
                 </div>
             </div>
-      </div>
+      <!-- </div> -->
+      </li>
+        <li>
+        <!-- <div class="second_stage"> -->
+            <div class="profile-card">
+                <div class="profile-card__inner">
+                    <div class="profile-thumb">
+                        <img src="image/pro_hamasaka.png">
+                    </div>
 
+                    <div class="profile-content">
+                        <div class="pro_icom">
+                        <div class="box">
+                        <i>PRO</i>
+                        </div>
+                        <span class="profile-name">濱坂 愛音</span>
+                        </div>
+                        <span class="profile-job">株式会社10X PM</span>
+                        <span class="profile-intro">【話せる内容】#起業 #新規事業 
+                        </span>
+                    </div>
+                </div>
+            </div>
+      <!-- </div> -->
+      </li>
+      <li>
+        <!-- <div class="pic-smp"> -->
+          <div class="profile-card">
+            <div class="profile-card__inner">
+                <div class="profile-thumb">
+                    <img src="image/pro_kitou.png">
+                </div>
+
+                <div class="profile-content">
+                    <div class="pro_icom">
+                        <div class="box">
+                        <i>PRO</i>
+                        </div>
+                        <span class="profile-name">鬼頭 史到</span>
+                    </div>
+                    <span class="profile-job">CEO</span>
+                    <span class="profile-intro">【話せる内容】#起業 #新規事業 
+                    </span>
+                </div>
+            </div>
         </div>
+        </li>
+    
+        <!-- </div> -->
+        </ul>
         </div>
     </div>
 </template>
@@ -347,7 +397,16 @@ display: none;
 
 .pic-smp{
   display: block;
+  overflow-x: auto;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
 }
+
+li{
+  display: inline-block;
+      width: 90%;
+}
+
 }
 
 @media (max-width: 479px) {
@@ -381,17 +440,18 @@ padding-bottom: 30px;
 }
 
 .profile-card{
-  width: 80%;
+  width: 100%;
   max-width:390px;
   position: relative;
   background: #fff; /*背景の色*/
   box-shadow: 0px 1px 3px rgba(0,0,0,.18);
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 400px;
   border-radius: 20px;
   box-shadow: 0 2px 5px #ccc;
   margin: 0 auto;
   padding-top: 50px;
+  
 
 }
 
@@ -418,7 +478,7 @@ padding-bottom: 30px;
   background-color: #263440;
   width: 40px;
   text-align: center;
-  margin-left: 60px;
+  margin-left: 90px;
   font-size: 8px;
   border-radius: 20px;
   margin-bottom: 3px;
@@ -495,6 +555,16 @@ display: none;
 
 .pic-smp{
   display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  padding: 0;
+}
+
+li{
+  display: inline-block;
+  width: 90%;
+  margin-right: 10px;
 }
 }
 

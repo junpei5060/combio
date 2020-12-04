@@ -8,36 +8,37 @@
             師弟.comだからできること
         </p>
         <!-- <img src="image/point1.png" class="point_img"> -->
-        <div class="point_card">
-        <section class="card">
-            <img class="card-img" src="image/point1.jpeg" alt="">
-            <div class="card-content">
-                <h1 class="card-title">目標設定/伴奏サポート</h1>
-                <p class="card-text">自分が成し遂げたい目標設定や現状の課題の整理等プラニングをサポート。
-                    スポットでの相談ではなく、最低1ヵ月間、毎日継続的に目標の進捗度を測ったり、
-                    必要なアドバイスを提供することで自己実現を伴奏してサポートします。</p>
-            </div>
-        </section>
-        <section class="card">
-            <img class="card-img" src="image/point2.jpeg" alt="">
-            <div class="card-content">
-                <h1 class="card-title">第一線で活躍するメンターと<br>
-                    1on1ミーティング</h1>
-                <p class="card-text">メンター（プロ上司）はそれぞれ第一線で活躍する経験豊富な方が集まっており、
-                    自分のキャリアの一歩、二歩先を行く彼らに仕事の相談が可能。またマネジメントや営業等、
-                    自らの課題認識に最適なサポートをしてもらえるメンターを指名可能。
-                    週次でメンタリングを行うことで成長の加速を図ります。
-</p>
-            </div>
-        </section>
-        <section class="card">
-            <img class="card-img" src="image/point3.png" alt="">
-            <div class="card-content">
-                <h1 class="card-title">マンツーマンオンライン<br>
-                    カウンセリング</h1>
-                <p class="card-text">自身が掲げた目標設定の進捗状況や現状抱えている悩みの相談等、
-                    ざっくばらんに事務局サポーターと話すことができます。
-                    日報に対して毎日事務局目線でのフィードバックを実施し、
+                <div class="point_card">
+                    <section class="card">
+                        <img class="card-img" src="image/point1.jpeg" alt="">
+                            <div class="card-content">
+                                <h1 class="card-title">目標設定/伴奏サポート</h1>
+                                <p class="card-text">自分が成し遂げたい目標設定や現状の課題の整理等プラニングをサポート。
+                                スポットでの相談ではなく、最低1ヵ月間、毎日継続的に目標の進捗度を測ったり、
+                                必要なアドバイスを提供することで自己実現を伴奏してサポートします。</p>
+                            </div>
+                    </section>
+           
+           
+                    <section class="card">
+                        <img class="card-img" src="image/point2.jpeg" alt="">
+                            <div class="card-content">
+                                <h1 class="card-title">第一線で活躍するメンターと<br>
+                                1on1ミーティング</h1>
+                                <p class="card-text">メンター（プロ上司）はそれぞれ第一線で活躍する経験豊富な方が集まっており、
+                                自分のキャリアの一歩、二歩先を行く彼らに仕事の相談が可能。またマネジメントや営業等、
+                                自らの課題認識に最適なサポートをしてもらえるメンターを指名可能。
+                                週次でメンタリングを行うことで成長の加速を図ります。</p>
+                            </div>
+                    </section>
+                <section class="card">
+                    <img class="card-img" src="image/point3.png" alt="">
+                    <div class="card-content">
+                        <h1 class="card-title">マンツーマンオンライン<br>
+                        カウンセリング</h1>
+                        <p class="card-text">自身が掲げた目標設定の進捗状況や現状抱えている悩みの相談等、
+                        ざっくばらんに事務局サポーターと話すことができます。
+                        日報に対して毎日事務局目線でのフィードバックを実施し、
                     成長を促進できるよう尽力します。</p>
             </div>
         </section>
@@ -112,6 +113,7 @@ margin-bottom: 150px;
   line-height: 1.5;
   font-weight: bold;
 }
+
 
 @media screen and (max-width: 959px) {
 .container{

@@ -4,8 +4,8 @@
         師弟.<i>com</i>で<br>
         あなたに最適な理想の<br>
         <span>プロ上司</span>が見つかります
-        </p>
         
+         <div class="second_stage">
         <div class="profile-card">
             <div class="profile-card__inner">
                 <div class="profile-thumb">
@@ -26,7 +26,6 @@
                 </div>
             </div>
         </div>
-        <div class="second_stage">
             <div class="profile-card">
                 <div class="profile-card__inner">
                     <div class="profile-thumb">
@@ -121,7 +120,7 @@ margin-bottom: 200px;
 
 .profile-card{
   width: 100%;
-  max-width:500px;
+  max-width:360px;
   position: relative;
   background: #fff; /*背景の色*/
   box-shadow: 0px 1px 3px rgba(0,0,0,.18);
@@ -130,6 +129,7 @@ margin-bottom: 200px;
   border-radius: 20px;
   box-shadow: 0 2px 5px #ccc;
   margin: 0 auto;
+background: rgba(255, 255, 255, 0.864);
 
 }
 
@@ -148,7 +148,7 @@ margin-bottom: 200px;
 .pro_icom{
     display: flex;
     text-align: center;
-    margin-left: 150px;
+    margin-left: 90px;
 }
 
 .box{
@@ -156,7 +156,7 @@ margin-bottom: 200px;
   background-color: #263440;
   width: 60px;
   text-align: center;
-  margin-left: 10px;
+  margin-left: 0px;
   font-size: 14px;
   border-radius: 20px;
   margin-bottom: 3px;
@@ -222,7 +222,9 @@ margin-bottom: 200px;
 
 .second_stage{
     display: flex;
+    justify-content: space-around;
     margin-top: 50px;
+    margin-right: 50px;
 }
 
 @media (max-width: 959px) {
@@ -411,9 +413,10 @@ margin-bottom: 200px;
   height: 400px;
   border-radius: 20px;
   box-shadow: 0 2px 5px #ccc;
-  margin-left: 30px;
   margin-bottom: 50px;
-
+    background: rgba(255, 255, 255, 0.864);
+     display: inline-block;
+      width: 90%;
 
 }
 
@@ -440,7 +443,7 @@ margin-bottom: 200px;
   background-color: #263440;
   width: 40px;
   text-align: center;
-  margin-left: 60px;
+  margin-left: 30px;
   font-size: 8px;
   border-radius: 20px;
   margin-bottom: 3px;
@@ -507,9 +510,8 @@ margin-bottom: 200px;
 
 .second_stage{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin-top: 50px;
 }
-
 }
 </style>
