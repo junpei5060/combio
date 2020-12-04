@@ -149,10 +149,10 @@ font-weight: bold;
 color: #263440;
 }
 
-.user_btn{
+/* .user_btn{
 position: relative;
 display: flex;
-}
+} */
 
 .Used_img{
 /* width: 370px;
@@ -164,20 +164,20 @@ display: none;
 }
 
 .Flow_img{
-display: block;
+/* display: block;
 width: 370px;
 max-width: 80%;
 border-radius: 20px;
 box-shadow: 0 2px 5px #ccc;
-margin: 0 auto;
-  /* width:330px;
-  height: auto;
+margin: 0 auto; */
+  width:330px;
+  height: 400px;
   max-width: 100%;
   background: #fff;
   box-shadow: 0 2px 5px #ccc;
   border-radius: 20px;
   margin: 30px auto;
-  display: block; */
+  display: block;
 }
 
 
