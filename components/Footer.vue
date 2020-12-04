@@ -26,7 +26,7 @@ height: 200px;
 text-align: center;
 padding: 50px 0;
 background-color: #707070;
-/* margin-top: 70px; */
+margin-top: 40px;
 max-width: 100%;
 }
 }
