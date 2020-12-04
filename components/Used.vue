@@ -123,6 +123,7 @@ margin-bottom: 100px;
 
 @media (max-width: 479px) {
 .container{
+height: 100%;
 width: 100%;
 max-width: 100%;
 margin: 0 auto;
@@ -169,9 +170,9 @@ max-width: 80%;
 border-radius: 20px;
 box-shadow: 0 2px 5px #ccc;
 margin: 0 auto; */
-  width: 100%;
-  max-height: 100%;
-  max-width: 330px;
+  width:330px;
+  height: auto;
+  max-width: 100%;
   background: #fff;
   box-shadow: 0 2px 5px #ccc;
   border-radius: 20px;
