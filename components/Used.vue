@@ -171,6 +171,7 @@ border-radius: 20px;
 box-shadow: 0 2px 5px #ccc;
 margin: 0 auto; */
   width: 100%;
+  max-height: 100%;
   max-width: 330px;
   background: #fff;
   box-shadow: 0 2px 5px #ccc;
@@ -199,7 +200,7 @@ white-space: nowrap;
 position: absolute;
 left: 32%;
 z-index: 2;
-margin-top: 460px;
+margin-top: 380px;
 }
 
 .btn_top:hover {
