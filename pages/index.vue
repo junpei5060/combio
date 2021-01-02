@@ -9,7 +9,7 @@
     <About></About>
     <Point></Point>
      <Voice></Voice>
-    <Characteristic></Characteristic>
+     <Characteristic></Characteristic>
     <Used></Used>
     <Footer></Footer>
 
@@ -55,7 +55,7 @@ body {
 
 .bg {
   animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #ffffff 50%, #DB0B40 50%);
+  background-image: linear-gradient(-60deg, #ffffff 50%, #BA0527 50%);
   bottom:0;
   left:-50%;
   opacity:.5;

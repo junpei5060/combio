@@ -3,7 +3,7 @@
     <body>
       <header class="container">
             <h1>
-                <a href="/" class="ppt"></a>師弟.<i>com</i><br>
+                <a href="/" class="ppt"></a><i>Joshi.com</i><br>
             </h1>
             <nav>
                 <!-- <ul>
@@ -30,8 +30,8 @@ header {
     justify-content: space-between; 
     padding: 10px 64px;
     overflow: hidden;
-    border-bottom:1px solid #DB0B40;
-    box-shadow: 1px 2px #DB0B40;
+    border-bottom:1px solid #BA0527;
+    box-shadow: 1px 2px #BA0527;
     position: fixed;
     z-index: 2;
     background-color: #fff;
@@ -47,6 +47,8 @@ justify-content: start;
 
 i{
   color: #DB0B40;
+  font-size: 32px;
+  margin: 0; padding: 0;
 }
 
 nav {
@@ -82,7 +84,6 @@ v-enter-active, .v-leave-active {
     cursor: pointer;
     display: inline-block;
     font-size: 14px;
-    font-weight: 500;
     height: 36px;
     letter-spacing: .5px;
     line-height: 36px;
@@ -94,7 +95,8 @@ v-enter-active, .v-leave-active {
 }
 
 .btn_top:hover {
-  background-color: #DB0B40;
+  background-color: #BA0527;
+  font-weight: bold;
 }
 .btn_top:active {
   top: 3px;
@@ -218,11 +220,12 @@ padding: 0;
 font-size: 16px;
 display: flex;
 justify-content: start;
-padding-left: 20px;
+padding-left: 5px;
 }
 
 i{
   color: #DB0B40;
+  font-size: 20px;
 }
 
 nav {
@@ -262,7 +265,7 @@ v-enter-active, .v-leave-active {
     height: 24px;
     letter-spacing: .5px;
     line-height: 24px;
-    padding: 0 16px;
+    padding: 0 11px;
     text-align: center;
     text-decoration: none;
     transition: background-color .15s,color .15s ease-in-out;

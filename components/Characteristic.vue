@@ -43,19 +43,18 @@
 
 <style scoped>
 .container{
-height: 100%;
+height: 750px;
 width: 100%;
-max-width: 1440px;
 margin: 0 auto;
-margin-top: 750px;
-margin-bottom: 160px;
+margin-top: 720px;
+margin-bottom: 120px;
 }
 
 .Characteristic_container{
 text-align: center;
 }
 h5{
-width: 300px;
+width: 350px;
 transition: all .5s;
 font-size: 72px;
 color: #263440;

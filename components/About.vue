@@ -6,22 +6,22 @@
                     About
                 </h5>
                 <p class="about_text">
-                    師弟.comってなに？
+                    Joshi.comってなに？
                 </p>
             </div>
             <section class="card">
             <!-- <img class="card-img" src="image/point1.jpeg" alt=""> -->
             <div class="card-content">
-                <p class="title">目の前のプロジェクトも
-                    、<span>あなた自身も前に進む</span></p>
-                <h1 class="card-title">①もう上司には悩まない</h1>
+                <p class="title">もう
+                    、<span>上司なんかいらない</span></p>
+                <h1 class="card-title"><span>01</span>もう上司には悩まない</h1>
                 <p class="card-text">ビジネスマンにとって非常に重要な上司や先輩の決定は運要素が強く、適切な指導が得られずに
                 本来、ビジネスマンが持つ潜在可能性が引き出されていないと私たちは考えます。師弟.comではあなたに最適なプロ上司を
                 マッチングしてあなたの成長角度を最大化します
                 </p>
             </div>
             <div class="card-content">
-                <h1 class="card-title">②個人に合わせた環境を提供</h1>
+                <h1 class="card-title"><span>02</span>個人に合わせた環境を提供</h1>
                 <p class="card-text">ビジネスマンの成長にとって、「環境」は何よりも大切なものです。いくら意識を高く持っていたとしても
                 社内に聞ける先輩がいない、自分と同じ悩みを抱えている人がおらず、プロジェクトが前に進まないという課題は優秀なビジネスマンであれば
                 あるほど立ち塞がる壁です。師弟.comではあなたが解決したい課題に合わせて最適なプロ上司とメンタリング環境を提供することで、
@@ -29,7 +29,7 @@
                 </p>
             </div>
             <div class="card-content">
-                <h1 class="card-title">③全てのビシネスマンになりたい姿を</h1>
+                <h1 class="card-title"><span>03</span>全てのビシネスマンになりたい姿を</h1>
                 <p class="card-text">今の会社は好きだけど、なかなか成長が見込まれない、自分よりも優秀な同僚が少ないなどの悩みを抱えている
                 ビジネスマンの皆さんのために師弟.comはマネジメント&ビジネスのプロであるプロ上司があなたが目指すべきゴールの設定と道のりを提案、伴走
                 一人では辿り着けなかった場所に辿りつけます
@@ -48,9 +48,8 @@
 
 <style scoped>
 .container{
-height: 100%;
+height: 1300px;
 width: 100%;
-max-width: 1440px;
 margin: 0 auto;
 }
 
@@ -77,12 +76,11 @@ color: #263440;
 .card {
   margin: 30px auto;
   width: 800px;
-  background: #fff;
   border-radius: 5px;
-  box-shadow: 0 2px 5px #ccc;
-  height: 900px;
+  box-shadow: 0 2px 5px #fff;
+  height: 1100px;
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.891);
+  background:#fff;
 }
 .card-content {
   padding: 20px;
@@ -97,7 +95,7 @@ font-size: 30px;
 }
 
 span{
-color: #DB0B40;
+color: #BA0527;
 }
 
 
@@ -105,7 +103,7 @@ color: #DB0B40;
   font-size: 20px;
   margin-bottom: 20px;
   text-align: center;
-  color: #DB0B40;
+  color: #BA0527;
 }
 .card-text {
   color: #263440;
@@ -120,7 +118,7 @@ transition: all .5s;
 font-size: 20px;
 color: #263440;
 border-bottom:3px solid #DB0B40;
-margin: 30px auto;
+margin: 30px auto 20px;
 font-weight: bold;
 text-align: center;
 }
@@ -156,12 +154,44 @@ margin-left: 280px;
 }
 
 .btn_top:hover {
-background-color: #DB0B40;
+background-color: #BA0527;
 transition: all .5s;
 }
 .btn_top:active {
 top: 3px;
 box-shadow: none;
+}
+
+h1 {
+  position: relative;
+  overflow: hidden;
+  padding: 1.5rem 2rem 1.5rem 130px;
+  border: 2px solid #263440;
+}
+
+h1:before {
+  position: absolute;
+  top: -150%;
+  left: -100px;
+  width: 200px;
+  height: 300%;
+  content: '';
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
+  background: #263440;
+}
+
+h1 span {
+  font-size: 16px;
+  font-size: 3.2rem;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: block;
+  padding-top: 3px;
+  padding-left: 16px;
+  color: #fff;
 }
 
 @media (max-width: 959px) {

@@ -3,13 +3,13 @@
         <div class="container">
             <div class="top_container">
                 <h3 class="main_mess">
-                    一人では
-                    辿り着けない景色を
+                    一人<span>では</span>
+                    辿り着けない景色<span>を</span>
                 </h3>
                 <!-- <img src="image/top1.png" class="main_img"> -->
             </div>
                 <span class="main_text">
-                師弟.comは、ビジネスのプロであり、マネジメントのプロでもあるプロ上司があなたをトップビジネスマンへと成長させます。<br>
+                Joshi.comは、ビジネスのプロであり、マネジメントのプロでもあるプロ上司があなたをトップビジネスマンへと成長させます。<br>
                 今、所属する組織での活躍、今、抱えている大きなプロジェクトの<br>
                 成功そんな未だ見たことない景色を私たちと一緒に見てみませんか？
                 </span>
@@ -48,11 +48,10 @@ display: flex;
 width: 1440px;
 margin-top: 250px;
 margin-bottom: 110px;
-margin-right: 0;
-margin-left: 250px;
+text-align: center;
 transition: all .5s;
-font-size: 72px;
-color:#DB0B40;
+font-size: 82px;
+color:#BA0527;
   text-shadow:
     0 0 2px rgba(204, 208, 212,0.9),
     0 15px 25px rgba(0, 0, 0, 0.3),
@@ -83,6 +82,9 @@ color:#DB0B40;
    color: #ffffff; 
 }
 
+span{
+  font-size: 50px;
+}
 
 /* .main_img{
 width: 600px;
@@ -104,7 +106,7 @@ transition: all .5s;
 font-size: 18px;
 line-height: 35px;
 font-weight: bold;
-border-left:3px solid#DB0B40;
+border-left:3px solid#BA0527;
 padding: 0.25em 1.5em;
 letter-spacing: 0.1em;
   text-shadow:
@@ -129,7 +131,7 @@ color: #fff;
 cursor: pointer;
 display: inline-block;
 font-size: 14px;
-font-weight: 500;
+font-weight: bold;
 height: 54px;
 letter-spacing: .5px;
 line-height: 54px;
@@ -139,10 +141,11 @@ text-decoration: none;
 white-space: nowrap;
 margin-top:30px;
 margin-left: 600px;
+font-weight: bold;
 }
 
 .btn_top:hover {
-background-color: #DB0B40;
+background-color: #BA0527;
 transition: all .5s;
 }
 .btn_top:active {
@@ -329,6 +332,10 @@ color:#DB0B40;
 .main_mess:hover{
    transition: all .5s;
    color: #ffffff; 
+}
+
+span{
+  font-size: 14px;
 }
 .text_btn{
 display: flex;
