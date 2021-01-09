@@ -3,7 +3,7 @@
     <body>
       <header class="container">
             <h1>
-                <a href="/" class="ppt"></a><i>Joshi.com</i><br>
+                <a href="/" class="ppt"></a><i>kawano</i><br>
             </h1>
             <nav>
                 <!-- <ul>
