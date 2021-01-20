@@ -6,33 +6,33 @@
                     About
                 </h5>
                 <p class="about_text">
-                    Joshi.comってなに？
+                    MeeeLookってなに？
                 </p>
             </div>
             <section class="card">
             <!-- <img class="card-img" src="image/point1.jpeg" alt=""> -->
             <div class="card-content">
-                <p class="title">もう
-                    、<span>上司なんかいらない</span></p>
-                <h1 class="card-title"><span>01</span>もう上司には悩まない</h1>
-                <p class="card-text">ビジネスマンにとって非常に重要な上司や先輩の決定は運要素が強く、適切な指導が得られずに
-                本来、ビジネスマンが持つ潜在可能性が引き出されていないと私たちは考えます。師弟.comではあなたに最適なプロ上司を
-                マッチングしてあなたの成長角度を最大化します
+                <p class="title">「ふりかえり」を
+                    、<span>習慣化</span></p>
+                <h1 class="card-title"><span>01</span>「ふりかえり」ってめんどくさい</h1>
+                <p class="card-text">働く私たちにとって非常に重要な「ふりかえり」は緊急度が低く、おざなりになりがちです。
+                本来ならば、毎日振り返りをして自分自身を高めたい、変えたいと思ってはいても、日々の忙しさに負けてしまう方にメンターが
+                伴走してあなたの振り返りをサポートします
                 </p>
             </div>
             <div class="card-content">
                 <h1 class="card-title"><span>02</span>個人に合わせた環境を提供</h1>
-                <p class="card-text">ビジネスマンの成長にとって、「環境」は何よりも大切なものです。いくら意識を高く持っていたとしても
+                <p class="card-text">私たちの成長にとって、「環境」は何よりも大切なものです。いくら意識を高く持っていたとしても
                 社内に聞ける先輩がいない、自分と同じ悩みを抱えている人がおらず、プロジェクトが前に進まないという課題は優秀なビジネスマンであれば
-                あるほど立ち塞がる壁です。師弟.comではあなたが解決したい課題に合わせて最適なプロ上司とメンタリング環境を提供することで、
+                あるほど立ち塞がる壁です。MeeeLookではあなたが解決したい課題に合わせて最適な振り返り環境を提供することで、
                 目の前のプロジェクトもあなた自身も前に進ませることができます
                 </p>
             </div>
             <div class="card-content">
-                <h1 class="card-title"><span>03</span>全てのビシネスマンになりたい姿を</h1>
-                <p class="card-text">今の会社は好きだけど、なかなか成長が見込まれない、自分よりも優秀な同僚が少ないなどの悩みを抱えている
-                ビジネスマンの皆さんのために師弟.comはマネジメント&ビジネスのプロであるプロ上司があなたが目指すべきゴールの設定と道のりを提案、伴走
-                一人では辿り着けなかった場所に辿りつけます
+                <h1 class="card-title"><span>03</span>全ての人になりたい姿を</h1>
+                <p class="card-text">普段の仕事が忙し過ぎて、一体自分が何をしたいのかわからない。そんな悩みを抱えている方に対して
+                振り返りを伴走し、「習慣化」することであなたのなりたい姿を見つけることができます。MeeeLookを使って、振り返りを「習慣化」すれば
+                一人では辿り着けなかった景色に辿りつけます
                 </p>
             </div>
             
@@ -95,7 +95,7 @@ font-size: 30px;
 }
 
 span{
-color: #BA0527;
+color: #4caf50;
 }
 
 
@@ -103,7 +103,7 @@ color: #BA0527;
   font-size: 20px;
   margin-bottom: 20px;
   text-align: center;
-  color: #BA0527;
+  color: #4caf50;
 }
 .card-text {
   color: #263440;
@@ -117,7 +117,7 @@ width: 300px;
 transition: all .5s;
 font-size: 20px;
 color: #263440;
-border-bottom:3px solid #DB0B40;
+border-bottom:3px solid #4caf50;
 margin: 30px auto 20px;
 font-weight: bold;
 text-align: center;
@@ -154,7 +154,7 @@ margin-left: 280px;
 }
 
 .btn_top:hover {
-background-color: #BA0527;
+background-color: #4caf50;
 transition: all .5s;
 }
 .btn_top:active {
@@ -205,6 +205,7 @@ margin: 0 auto;
 .about_container{
 text-align: center;
 margin-top: 80px;
+
 }
 h5{
 width: 250px;
@@ -229,7 +230,7 @@ color: #263440;
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 5px #ccc;
-  height: 750px;
+  height: 900px;
   border-radius: 20px;
 }
 .card-content {
@@ -245,7 +246,7 @@ font-size: 23px;
 }
 
 span{
-color: #DB0B40;
+color: #4caf50;
 }
 
 
@@ -253,7 +254,7 @@ color: #DB0B40;
   font-size: 17px;
   margin-bottom: 20px;
   text-align: center;
-  color: #DB0B40;
+  color: #4caf50;
 }
 .card-text {
   color: #263440;
@@ -268,7 +269,7 @@ max-width: 150px;
 transition: all .5s;
 font-size: 14px;
 color: #263440;
-border-bottom:3px solid #DB0B40;
+border-bottom:3px solid #4caf50;
 margin: 15px auto;
 font-weight: bold;
 text-align: center;
@@ -311,7 +312,7 @@ margin: 0 auto;
 }
 
 .btn_top:hover {
-background-color: #DB0B40;
+background-color: #4caf50;
 transition: all .5s;
 }
 .btn_top:active {
@@ -356,7 +357,7 @@ color: #263440;
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 5px #ccc;
-  height: 1000px;
+  height: 1300px;
   border-radius: 20px;
 }
 .card-content {
@@ -372,7 +373,7 @@ font-size: 23px;
 }
 
 span{
-color: #DB0B40;
+color: #4caf50;
 }
 
 
@@ -380,7 +381,7 @@ color: #DB0B40;
   font-size: 17px;
   margin-bottom: 20px;
   text-align: center;
-  color: #DB0B40;
+  color: #4caf50;
 }
 .card-text {
   color: #263440;
@@ -395,7 +396,7 @@ max-width: 150px;
 transition: all .5s;
 font-size: 14px;
 color: #263440;
-border-bottom:3px solid #DB0B40;
+border-bottom:3px solid #4caf50;
 margin: 15px auto;
 font-weight: bold;
 text-align: center;
@@ -438,7 +439,7 @@ margin: 0 auto;
 }
 
 .btn_top:hover {
-background-color: #DB0B40;
+background-color: #4caf50;
 transition: all .5s;
 }
 .btn_top:active {

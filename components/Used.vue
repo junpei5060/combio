@@ -5,7 +5,7 @@
             Flow
         </h5>
         <p class="used_text">
-            師弟.comご利用までの流れ
+            MeeeLookご利用までの流れ
         </p>
         <div class="user_btn">
         
@@ -79,7 +79,7 @@ left: 42%;
 z-index: 2;
 }
 .btn_top:hover {
-background-color: #DB0B40;
+background-color: #4caf50;
 transition: all .5s;
 }
 .btn_top:active {
@@ -172,7 +172,7 @@ z-index: 2;
 margin-top: 300px;
 }
 .btn_top:hover {
-background-color: #DB0B40;
+background-color: #4caf50;
 transition: all .5s;
 }
 .btn_top:active {
@@ -255,7 +255,7 @@ z-index: 2;
 margin-top: 520px;
 }
 .btn_top:hover {
-background-color: #DB0B40;
+background-color: #4caf50;
 transition: all .5s;
 }
 .btn_top:active {

@@ -8,7 +8,7 @@
     <Pro></Pro>
     <About></About>
     <Point></Point>
-     <Voice></Voice>
+     <!-- <Voice></Voice> -->
      <Characteristic></Characteristic>
     <Used></Used>
     <Footer></Footer>
@@ -55,7 +55,7 @@ body {
 
 .bg {
   animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #ffffff 50%, #BA0527 50%);
+  background-image: linear-gradient(-60deg, #ffffff 50%, #4caf50 50%);
   bottom:0;
   left:-50%;
   opacity:.5;

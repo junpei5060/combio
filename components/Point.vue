@@ -5,7 +5,7 @@
             Point
         </h5>
         <p class="pro_text">
-            師弟.comだからできること
+            MeeeLookだからできること
         </p>
         <!-- <img src="image/point1.png" class="point_img"> -->
                 <div class="point_card">
@@ -104,7 +104,7 @@ margin-bottom: 150px;
   font-size: 20px;
   margin-bottom: 20px;
   text-align: center;
-  color: #DB0B40;
+  color: #4caf50;
 }
 .card-text {
   color: #263440;
@@ -174,7 +174,7 @@ margin-bottom: 150px;
   font-size: 20px;
   margin-bottom: 20px;
   text-align: center;
-  color: #DB0B40;
+  color: #4caf50;
 }
 .card-text {
   color: #263440;
@@ -249,7 +249,7 @@ margin-bottom: 150px;
   font-size: 20px;
   margin-bottom: 20px;
   text-align: center;
-  color: #DB0B40;
+  color: #4caf50;
 }
 .card-text {
   color: #263440;
