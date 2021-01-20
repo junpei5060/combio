@@ -11,7 +11,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: 'combio/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: 'meeeLook/favicon.ico' }
     ]
   },
 
@@ -46,6 +46,6 @@ export default {
   build: {
   },
   router: {
-    base: '/combio/'
+    base: '/meeeLook/'
   },
 }
