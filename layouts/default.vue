@@ -1,16 +1,12 @@
 <template>
   <div class="container">
     <transition name="page">
-    <nuxt/>
+      <nuxt />
     </transition>
   </div>
 </template>
 
-
 <style>
-
-
-
 .page-enter {
   opacity: 0;
 }
@@ -18,7 +14,8 @@
   transition: opacity 2s;
 }
 html {
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -28,7 +25,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   margin: 0;
 }
@@ -67,7 +66,4 @@ html {
     max-width: 375px;
   }
 } */
-
-
 </style>
-

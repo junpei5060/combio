@@ -1,4 +1,4 @@
-import Vue from 'vue'
-import VueScrollmagic from 'vue-scrollmagic'
+import Vue from "vue";
+import VueScrollmagic from "vue-scrollmagic";
 
-Vue.use(VueScrollmagic)
+Vue.use(VueScrollmagic);
