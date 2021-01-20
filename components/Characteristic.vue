@@ -88,7 +88,7 @@ color: #263440;
   font-size: 20px;
   margin-bottom: 20px;
   text-align: center;
-  color: #DB0B40;
+  color: #4caf50;
 }
 .card-text {
   color: #263440;
@@ -148,7 +148,7 @@ color: #263440;
   font-size: 15px;
   margin-bottom: 20px;
   text-align: center;
-  color: #DB0B40;
+  color: #4caf50;
 }
 .card-text {
   color: #263440;
@@ -207,7 +207,7 @@ color: #263440;
   font-size: 15px;
   margin-bottom: 20px;
   text-align: center;
-  color: #DB0B40;
+  color: #4caf50;
 }
 .card-text {
   color: #263440;
