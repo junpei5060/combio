@@ -24,7 +24,7 @@
         <div class="box">
           <h2>
             <i class="far fa-handshake"></i
-            ><span class="title">初回カウンセリング後にメンター決定</span><br />
+            ><span class="title">メンター決定</span><br />
             <span class="text"
               >無料相談にご満足いただき、お支払い完了後に初回カウンセリングを実施、ヒヤリング内容を基にお客様に合わせたメンターを紹介します</span
             >
@@ -500,6 +500,11 @@ display: flex;
     position: relative;
     z-index: 1;
   }
+
+.title{
+  font-size:16px;
+}
+
   .text {
     font-size: 12px;
   }
