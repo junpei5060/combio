@@ -10,7 +10,9 @@ export default {
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: "" }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "meeeLook/favicon.ico" }]
+    link: [{ rel: "icon", type: "image/x-icon", href: "meeeLook/favicon.ico" },
+    { rel: "stylesheet", href:"https://use.fontawesome.com/releases/v5.6.1/css/all.css"}]
+          
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
@@ -28,7 +30,8 @@ export default {
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/axios
-    "@nuxtjs/axios"
+    "@nuxtjs/axios",
+    "nuxt-fontawesome"
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -38,5 +41,13 @@ export default {
   build: {},
   router: {
     base: "/meeeLook/"
+  },
+  fontawesome: {
+    imports: [
+      {
+        set: "@fortawesome/free-solid-svg-icons",
+        icons: ["fas"]
+      }
+    ]
   }
 };

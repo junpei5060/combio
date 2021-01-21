@@ -234,7 +234,7 @@ h1 span {
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px #ccc;
-    height: 900px;
+    height: 800px;
     border-radius: 20px;
   }
   .card-content {
@@ -358,7 +358,7 @@ h1 span {
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px #ccc;
-    height: 1300px;
+    height: 1250px;
     border-radius: 20px;
   }
   .card-content {
