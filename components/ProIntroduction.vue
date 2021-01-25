@@ -10,7 +10,7 @@
       <div class="profile-card">
         <div class="profile-card__inner">
           <div class="profile-thumb">
-            <img src="image/pro_kitou.png" />
+            <img src="image/pro4.png" />
           </div>
 
           <div class="profile-content">
@@ -19,7 +19,7 @@
                 <div class="box">
                   <i>Menter</i>
                 </div>
-                <span class="profile-name">鬼頭 史到</span>
+                <span class="profile-name">中沢 惇平</span>
               </div>
             </div>
             <span class="profile-job">CEO</span>
@@ -34,7 +34,7 @@
       <div class="profile-card">
         <div class="profile-card__inner">
           <div class="profile-thumb">
-            <img src="image/pro_hamasaka.png" />
+            <img src="image/pro4.png" />
           </div>
 
           <div class="profile-content">
@@ -42,7 +42,7 @@
               <div class="box">
                 <i>Menter</i>
               </div>
-              <span class="profile-name">濱坂 愛音</span>
+              <span class="profile-name">中沢 惇平</span>
             </div>
             <span class="profile-job">株式会社10X PM</span>
             <span class="profile-intro"
